@@ -1,0 +1,3 @@
+[submodule "userspace-dspbridge"]
+	path = userspace-dspbridge
+	url = git@github.com:tudelft/userspace-dspbridge.git
