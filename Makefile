@@ -4,7 +4,10 @@ TIDSP := C6000_6.0.3/README.txt
 
 
 all: $(TIDSP)
-	make -C ./VisionTest
+	git submodule init
+	git submodule sync
+	git submodule update
+	make -C ./userspace-dspbridge/source/
 
 
 
